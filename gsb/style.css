@@ -1,0 +1,15 @@
+:root{--ink:#1d2a30;--sub:#53626a;--line:#d7dee2;--bg:#ffffff;--tint:#eef4f6;--link:#0b5f7a}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.85 "Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif}
+main{max-width:42rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+h1{font-size:1.6rem;line-height:1.4;margin:0 0 .4rem;letter-spacing:.02em}
+.lead{color:var(--sub);margin:0 0 2.2rem}
+h2{font-size:1.1rem;margin:2.4rem 0 .6rem;padding-bottom:.3rem;border-bottom:1px solid var(--line)}
+p,li{margin:.4rem 0}
+ul{padding-left:1.3rem}
+a{color:var(--link)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.note{background:var(--tint);padding:1rem 1.1rem;border-radius:6px;margin:1.4rem 0}
+footer{margin-top:3rem;color:var(--sub);font-size:.9rem}
+@media (prefers-color-scheme:dark){:root{--ink:#e6edf0;--sub:#a7b4ba;--line:#33444c;--bg:#121a1e;--tint:#1c282e;--link:#7cc4dc}}
